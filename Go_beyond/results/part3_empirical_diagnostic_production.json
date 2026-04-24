@@ -1,0 +1,4 @@
+{
+  "status": "no_positive_k3_found",
+  "message": "No preprocessed empirical import contains a nonzero tetrahedron participation average. The D=3 empirical channel is structurally inactive in the available files."
+}

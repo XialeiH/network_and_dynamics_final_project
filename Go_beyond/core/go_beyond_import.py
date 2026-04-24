@@ -42,6 +42,15 @@ def create_complex_from_cliques(cliques: Sequence[Sequence[int]], max_dimension:
     }
 
 
+def load_sociopatterns_realizations(dataset_path):
+    dataset_path = Path(dataset_path)
+    with dataset_path.open("r") as handle:
+        clique_realizations = json.load(handle)
+    if not clique_realizations:
+        raise ValueError(f"No clique realizations found in {dataset_path}")
+    return clique_realizations
+
+
 def import_sociopatterns_complex(
     dataset_path,
     realization="random",
@@ -49,16 +58,12 @@ def import_sociopatterns_complex(
     seed: int = 0,
 ):
     dataset_path = Path(dataset_path)
-    with dataset_path.open("r") as handle:
-        clique_realizations = json.load(handle)
-
-    if not clique_realizations:
-        raise ValueError(f"No clique realizations found in {dataset_path}")
+    clique_realizations = load_sociopatterns_realizations(dataset_path)
 
     if realization == "random":
         rng = random.Random(seed)
-        selected = clique_realizations[rng.randrange(len(clique_realizations))]
-        realization_index = "random"
+        realization_index = rng.randrange(len(clique_realizations))
+        selected = clique_realizations[realization_index]
     else:
         realization_index = int(realization)
         selected = clique_realizations[realization_index]
@@ -67,4 +72,3 @@ def import_sociopatterns_complex(
     complex_data["dataset_path"] = str(dataset_path)
     complex_data["realization"] = realization_index
     return complex_data
-

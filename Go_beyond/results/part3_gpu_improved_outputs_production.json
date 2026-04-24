@@ -1,0 +1,10 @@
+{
+  "synthetic_figure": "/scratch/xh2906/simplagion-master/Go_beyond/figures/d3_synthetic_bistability_lambda2_1p2_lambda3_1p2_production.png",
+  "time_figure": "/scratch/xh2906/simplagion-master/Go_beyond/figures/d3_time_evolution_bistable_lambda2_1p2_lambda3_1p2_production.png",
+  "empirical_figure": null,
+  "empirical_search_csv": "/scratch/xh2906/simplagion-master/Go_beyond/results/part3_empirical_tetrahedron_search_production.csv",
+  "empirical_search_json": "/scratch/xh2906/simplagion-master/Go_beyond/results/part3_empirical_tetrahedron_search_production.json",
+  "empirical_diagnostic_json": "/scratch/xh2906/simplagion-master/Go_beyond/results/part3_empirical_diagnostic_production.json",
+  "synthetic_calibration_json": "/scratch/xh2906/simplagion-master/Go_beyond/results/part3_synthetic_calibration_production.json",
+  "synthetic_calibration_csv": "/scratch/xh2906/simplagion-master/Go_beyond/results/part3_synthetic_calibration_table_production.csv"
+}

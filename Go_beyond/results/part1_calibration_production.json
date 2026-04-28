@@ -1,0 +1,177 @@
+{
+  "target_k1": 16.0,
+  "target_k2": 4.0,
+  "n_trials": 8,
+  "families": {
+    "er": {
+      "candidates": [
+        {
+          "params": {
+            "k1": 16.0,
+            "k2": 4.0
+          },
+          "mean_k1": 15.946920380570857,
+          "mean_k2": 3.988482724086129,
+          "score": 0.07611417125688469
+        }
+      ],
+      "chosen": {
+        "generator_mode": "controlled",
+        "params": {
+          "k1": 16.0,
+          "k2": 4.0
+        },
+        "mean_k1": 15.946920380570857,
+        "mean_k2": 3.988482724086129,
+        "score": 0.07611417125688469
+      }
+    },
+    "scale_free": {
+      "candidates": [
+        {
+          "params": {
+            "m": 4,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 13.890375,
+          "mean_k2": 4.0005,
+          "score": 2.110624999999999
+        },
+        {
+          "params": {
+            "m": 5,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 16.219375,
+          "mean_k2": 4.0005,
+          "score": 0.22037499999999888
+        },
+        {
+          "params": {
+            "m": 6,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 18.426875000000003,
+          "mean_k2": 4.0005,
+          "score": 2.427875000000002
+        },
+        {
+          "params": {
+            "m": 7,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 20.5535,
+          "mean_k2": 4.0005,
+          "score": 4.554499999999999
+        }
+      ],
+      "chosen": {
+        "generator_mode": "native",
+        "params": {
+          "m": 5,
+          "triangle_factor": 4.0
+        },
+        "mean_k1": 16.219375,
+        "mean_k2": 4.0005,
+        "score": 0.22037499999999888
+      }
+    },
+    "small_world": {
+      "candidates": [
+        {
+          "params": {
+            "k_nearest": 10,
+            "rewiring_prob": 0.1,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 14.447624999999999,
+          "mean_k2": 4.0005,
+          "score": 1.5533750000000008
+        },
+        {
+          "params": {
+            "k_nearest": 10,
+            "rewiring_prob": 0.12,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 14.51925,
+          "mean_k2": 4.0005,
+          "score": 1.48175
+        },
+        {
+          "params": {
+            "k_nearest": 12,
+            "rewiring_prob": 0.1,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 16.504875000000002,
+          "mean_k2": 4.0005,
+          "score": 0.5058750000000014
+        },
+        {
+          "params": {
+            "k_nearest": 12,
+            "rewiring_prob": 0.12,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 16.564375,
+          "mean_k2": 4.0005,
+          "score": 0.5653749999999977
+        },
+        {
+          "params": {
+            "k_nearest": 14,
+            "rewiring_prob": 0.1,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 18.568,
+          "mean_k2": 4.0005,
+          "score": 2.569000000000001
+        },
+        {
+          "params": {
+            "k_nearest": 14,
+            "rewiring_prob": 0.12,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 18.631750000000004,
+          "mean_k2": 4.0005,
+          "score": 2.6327500000000033
+        },
+        {
+          "params": {
+            "k_nearest": 16,
+            "rewiring_prob": 0.1,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 20.597875,
+          "mean_k2": 4.0005,
+          "score": 4.598874999999998
+        },
+        {
+          "params": {
+            "k_nearest": 16,
+            "rewiring_prob": 0.12,
+            "triangle_factor": 4.0
+          },
+          "mean_k1": 20.648500000000002,
+          "mean_k2": 4.0005,
+          "score": 4.6495000000000015
+        }
+      ],
+      "chosen": {
+        "generator_mode": "native",
+        "params": {
+          "k_nearest": 12,
+          "rewiring_prob": 0.1,
+          "triangle_factor": 4.0
+        },
+        "mean_k1": 16.504875000000002,
+        "mean_k2": 4.0005,
+        "score": 0.5058750000000014
+      }
+    }
+  },
+  "profile": "production",
+  "n_nodes": 2000
+}

@@ -1,0 +1,9 @@
+dataset,dimension,dataset_path,n_realizations,n_simulations_per_realization,avg_k1,avg_k2,avg_k3,max_rho,first_nonzero_lambda
+InVS15,2,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_InVS15.json,10,80,24.67735849056604,6.919811320754717,0.0,0.5689966935664416,0.7517241379310344
+InVS15,3,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_InVS15.json,10,80,24.67735849056604,6.919811320754717,0.0,0.5681773564219474,0.7517241379310344
+LH10,2,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_LH10.json,10,80,22.5027027027027,17.14864864864865,0.0,0.485233309827745,0.7517241379310344
+LH10,3,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_LH10.json,10,80,22.5027027027027,17.14864864864865,0.0,0.48041557885706426,0.7517241379310344
+SFHH,2,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_15_0.85min_cliques_SFHH.json,10,80,20.867708333333336,10.82890625,0.0,0.535659600943327,0.47586206896551725
+SFHH,3,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_15_0.85min_cliques_SFHH.json,10,80,20.867708333333336,10.82890625,0.0,0.5359731736034155,0.47586206896551725
+Thiers13,2,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_Thiers13.json,10,80,32.00495356037151,10.829721362229106,0.0,0.5748489694297314,0.8206896551724139
+Thiers13,3,/scratch/xh2906/simplagion-master/Data/Sociopatterns/thr_data_random/random_5_0.8min_cliques_Thiers13.json,10,80,32.00495356037151,10.829721362229106,0.0,0.5745433583855629,0.7517241379310344

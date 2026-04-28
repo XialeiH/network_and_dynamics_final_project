@@ -1,0 +1,4 @@
+family,generator_mode,params,mean_k1,mean_k2,score
+er,controlled,"{""k1"": 16.0, ""k2"": 4.0}",15.946920380570857,3.988482724086129,0.07611417125688469
+scale_free,native,"{""m"": 5, ""triangle_factor"": 4.0}",16.219375,4.0005,0.22037499999999888
+small_world,native,"{""k_nearest"": 12, ""rewiring_prob"": 0.1, ""triangle_factor"": 4.0}",16.504875000000002,4.0005,0.5058750000000014

@@ -142,3 +142,4 @@ I. Iacopini, G. Petri, A. Barrat, and V. Latora (2019), *Simplicial Models of So
 - The root-level notebooks are preserved from the original codebase for reference.
 - The project report and final figures are based primarily on the contents of `Replication/` and `Go_beyond/`.
 - Some large intermediate transfer archives are intentionally not part of the tracked project outputs.
+- AI tools were used during the project for code debugging, implementation support, and README/report drafting assistance.
